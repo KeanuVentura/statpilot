@@ -2,6 +2,8 @@
 
 **StatPilot** is a web application that predicts NBA player prop outcomes—such as points, rebounds, and assists—using historical player performance data. It provides probabilities that a player will go over or under a given stat line against specific opponents.
 
+🌐 **Live Demo**: [https://statpilot-6cg9.onrender.com/](https://statpilot-6cg9.onrender.com/)
+
 ---
 
 ## Project Overview
@@ -57,4 +59,4 @@ Using these features, it predicts the expected stat value and calculates the pro
 
 StatPilot is deployed as a live web application using Docker, allowing seamless scaling and easy access for users without requiring local setup.
 
----
+🌍 **Check it out live**: [https://statpilot-6cg9.onrender.com/](https://statpilot-6cg9.onrender.com/)
