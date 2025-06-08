@@ -41,7 +41,7 @@ def read_html(file_path: str) -> str:
 
 BASE_DIR = Path(__file__).resolve().parent
 
-df = pd.read_csv("app/LeGamble_Dataset - Sheet1.csv")
+df = pd.read_csv("app/datasheet.csv")
 
 df_cleaned = df.drop(columns = ['FG', '3PT','3P%','FT', 'FT%', 'Result', 'MIN', 'Date', 'FG%', 'STL', 'BLK', 'TO', 'PF'])
 int_cols = [ 'REB', 'AST', 'PTS']
